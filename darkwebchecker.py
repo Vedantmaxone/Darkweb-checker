@@ -1,5 +1,9 @@
 import requests
 import sys
+import pyfiglet
+
+ascii_banner = pyfiglet.figlet_format("DARKBYVED")
+print(ascii_banner)
 
 def check_onion_site(url):
     proxies = {
