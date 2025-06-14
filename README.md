@@ -3,6 +3,7 @@
 1. 🧱 Tor service running locally:
 
 sudo apt install tor
+
 sudo systemctl start tor
 
 
